@@ -1,9 +1,9 @@
-[![Discord](https://img.shields.io/badge/Discord-%40Invoify-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/uhXKHbVKHZ)
+[![Discord](https://img.shields.io/badge/Discord-%40UrthlyInvoice-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/uhXKHbVKHZ)
 # Urthly Invoice
 
 Urthly Invoice is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
 
-![Urthly Invoice Website image](/public/assets/img/invoify-web-app.png)
+![Urthly Invoice Website image](/public/assets/img/urthly-invoice-web-app.png)
 
 ## Table of Contents
 
@@ -54,7 +54,7 @@ Urthly Invoice is a web-based invoice generator application built with Next.js 1
 ## Demo
 
 > [!NOTE]
-> Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aliabb01/invoify/issues/11).
+> Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aakidhmohamed/urthly-invoice/issues/11).
 
 Visit the [live demo](https://urthly-invoice.vercel.app) to see Urthly Invoice in action.
 
@@ -71,8 +71,8 @@ Follow these instructions to get Urthly Invoice up and running on your local mac
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/al1abb/invoify.git
-   cd invoify
+   git clone https://github.com/aakidhmohamed/urthly-invoice.git
+   cd urthly-invoice
    ```
 2. Install dependencies
    
