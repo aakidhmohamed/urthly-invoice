@@ -16,8 +16,7 @@ import {
 import { JSONLD, ROOTKEYWORDS } from "@/lib/seo";
 // Variables
 import { BASE_URL, GOOGLE_SC_VERIFICATION, LOCALES } from "@/lib/variables";
-// Favicon
-import Favicon from "@/public/assets/favicon/favicon.ico";
+// (Favicon handled by app/icon.png)
 // Vercel Analytics
 import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
@@ -29,7 +28,7 @@ export const metadata: Metadata = {
     title: "Urthly Invoice | Free Invoice Generator",
     description:
         "Create invoices effortlessly with Urthly Invoice, the free invoice generator. Try it now!",
-    icons: [{ rel: "icon", url: Favicon.src }],
+    // icons handled by app/icon.png
     keywords: ROOTKEYWORDS,
     robots: {
         index: true,
