@@ -1,13 +1,13 @@
 [![Discord](https://img.shields.io/badge/Discord-%40Invoify-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/uhXKHbVKHZ)
-# Invoify
+# Urthly Invoice
 
-Invoify is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
+Urthly Invoice is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
 
-![Invoify Website image](/public/assets/img/invoify-web-app.png)
+![Urthly Invoice Website image](/public/assets/img/invoify-web-app.png)
 
 ## Table of Contents
 
-- [Invoify](#invoify)
+- [Urthly Invoice](#urthly-invoice)
   - [Table of Contents](#table-of-contents)
   - [Technologies](#technologies)
     - [Core Technologies](#core-technologies)
@@ -56,11 +56,11 @@ Invoify is a web-based invoice generator application built with Next.js 13, Type
 > [!NOTE]
 > Please be advised that there are currently issues when using this application in the Mozilla Firefox browser. For more information, refer to [Issue #11](https://github.com/aliabb01/invoify/issues/11).
 
-Visit the [live demo](https://invoify.vercel.app) to see Invoify in action.
+Visit the [live demo](https://urthly-invoice.vercel.app) to see Urthly Invoice in action.
 
 ## Getting Started
 
-Follow these instructions to get Invoify up and running on your local machine.
+Follow these instructions to get Urthly Invoice up and running on your local machine.
 
 ### Prerequisites
 
