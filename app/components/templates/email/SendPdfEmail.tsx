@@ -21,7 +21,7 @@ type SendPdfEmailProps = {
 };
 
 export default function SendPdfEmail({ invoiceNumber }: SendPdfEmailProps) {
-    const logo = `${BASE_URL}/assets/img/invoify-logo.png`;
+    const logo = `${BASE_URL}/assets/img/urthly-logo.png`;
     return (
         <Html>
             <Head />
@@ -34,12 +34,12 @@ export default function SendPdfEmail({ invoiceNumber }: SendPdfEmailProps) {
                         <Section className="bg-white border-black-950 my-10 px-10 py-4 rounded-md">
                             <Img
                                 src={logo}
-                                alt="Invoify Logo"
+                                alt="Urthly Invoice Logo"
                                 width={200}
                                 height={120}
                             />
                             <Heading className="leading-tight">
-                                Thanks for using Invoify!
+                                Thanks for using Urthly Invoice!
                             </Heading>
 
                             <Text>
@@ -53,7 +53,7 @@ export default function SendPdfEmail({ invoiceNumber }: SendPdfEmailProps) {
                             <Text>
                                 Best Regards,
                                 <br />
-                                Invoify Team
+                                Urthly Invoice Team
                             </Text>
                         </Section>
                     </Container>

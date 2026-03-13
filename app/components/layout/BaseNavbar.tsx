@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // Assets
-import Logo from "@/public/assets/img/invoify-logo.svg";
+import Logo from "@/public/assets/img/urthly-logo.png";
 
 // ShadCn
 import { Card } from "@/components/ui/card";
@@ -25,11 +25,11 @@ const BaseNavbar = () => {
                     <Link href={"/"}>
                         <Image
                             src={Logo}
-                            alt="Invoify Logo"
-                            width={190}
-                            height={100}
+                            alt="Urthly Invoice Logo"
+                            width={50}
+                            height={50}
                             loading="eager"
-                            style={{ height: "auto" }}
+                            style={{ height: "auto", borderRadius: "50%" }}
                         />
                     </Link>
                     {/* ? DEV Only */}
