@@ -21,8 +21,8 @@ const BaseNavbar = () => {
     return (
         <header className="lg:container z-[99]">
             <nav>
-                <Card className="flex flex-wrap justify-between items-center px-5 gap-5">
-                    <Link href={"/"}>
+                <Card className="flex flex-wrap justify-between items-center p-5 gap-5">
+                    <Link href={"/"} className="ml-2">
                         <Image
                             src={Logo}
                             alt="Urthly Invoice Logo"
